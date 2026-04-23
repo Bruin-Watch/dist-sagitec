@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>The Chief, The Box, and The Records — A Memorandum for Counsel of Record in Regents v. Sagitec Solutions, LLC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--uc-blue:#003262;--uc-blue-dark:#001a35;--uc-gold:#FDB515;--uc-mid:#2774AE;--red:#a21d2d;--paper:#fafaf7;--ink:#0f0f0f;--muted:#555}
+body{font-family:'Source Sans Pro',Calibri,Arial,sans-serif;background:#e8edf2;color:var(--ink);font-size:17px;line-height:1.65}
+.page{max-width:820px;margin:0 auto;background:var(--paper);padding:0;box-shadow:0 0 40px rgba(0,0,0,.15);min-height:100vh}
+
+/* header */
+.hdr{background:var(--uc-blue-dark);color:#fff;padding:36px 56px 30px;border-bottom:4px solid var(--uc-gold)}
+.hdr-tag{font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:3px;color:var(--uc-gold);margin-bottom:10px}
+.hdr h1{font-family:'Libre Baskerville',Georgia,serif;font-size:28px;line-height:1.3;font-weight:700;margin-bottom:14px}
+.hdr .caption{font-size:14px;color:rgba(255,255,255,.75);font-style:italic;line-height:1.5}
+.hdr .caption strong{color:#fff;font-style:normal}
+
+/* confidentiality strip */
+.conf{background:var(--red);color:#fff;padding:10px 56px;font-family:'Source Sans Pro',sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700;text-align:center}
+
+/* body */
+.body{padding:44px 56px 56px}
+.body h2{font-family:'Libre Baskerville',Georgia,serif;color:var(--uc-blue);font-size:22px;line-height:1.3;margin-top:36px;margin-bottom:8px;padding-bottom:6px;border-bottom:2px solid var(--uc-gold)}
+.body h2:first-child{margin-top:0}
+.body h2 .roman{color:var(--uc-gold);font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:18px;letter-spacing:3px;margin-right:10px;vertical-align:2px}
+.body h3{font-family:'Source Sans Pro',sans-serif;color:var(--uc-blue-dark);font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;margin-top:22px;margin-bottom:8px}
+.body p{margin-bottom:14px;text-align:left}
+.body p.lede{font-size:19px;line-height:1.55;font-weight:600;color:var(--uc-blue-dark);border-left:4px solid var(--uc-gold);padding-left:16px;margin:18px 0 22px}
+.body ul{margin:10px 0 18px 22px}
+.body li{margin-bottom:6px}
+.body strong{color:var(--ink)}
+.body em.legal{font-style:italic;color:var(--uc-blue-dark)}
+
+/* the trap callout */
+.trap{background:#fff;border:2px solid var(--uc-blue);border-left:6px solid var(--red);padding:20px 24px;margin:22px 0;font-size:17px;line-height:1.55}
+.trap .label{font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:3px;color:var(--red);margin-bottom:10px}
+.trap .row{margin-bottom:10px}
+.trap .row:last-child{margin-bottom:0}
+.trap .row strong{color:var(--uc-blue-dark);display:inline-block;min-width:180px}
+
+/* verdict strip */
+.verdict{background:var(--uc-blue-dark);color:#fff;padding:18px 24px;margin:22px 0;font-size:17px;line-height:1.5;font-family:'Libre Baskerville',Georgia,serif;font-style:italic}
+.verdict strong{color:var(--uc-gold);font-style:normal;font-family:'Source Sans Pro',sans-serif;text-transform:uppercase;letter-spacing:1.5px;font-size:13px;display:block;margin-bottom:6px}
+
+/* credentials table */
+.cred{background:#fff;border:1px solid #d0d4da;padding:18px 22px;margin:18px 0}
+.cred .cred-title{font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:3px;color:var(--uc-blue);margin-bottom:12px}
+.cred ul{margin:0;list-style:none;padding:0}
+.cred li{padding:6px 0;border-bottom:1px dotted #d0d4da;font-size:15px}
+.cred li:last-child{border-bottom:none}
+.cred li strong{color:var(--uc-blue-dark);display:inline-block;min-width:140px;font-size:13px;letter-spacing:1px;text-transform:uppercase;font-weight:700}
+
+/* signature block */
+.sig{margin-top:44px;padding-top:26px;border-top:2px solid var(--uc-blue);font-size:15px}
+.sig h2{border-bottom:none;color:var(--uc-blue-dark);font-size:18px;margin-bottom:14px}
+.sig .sig-name{font-family:'Libre Baskerville',Georgia,serif;font-size:19px;font-weight:700;margin:18px 0 4px;color:var(--uc-blue-dark)}
+.sig .sig-line{color:var(--muted);font-size:14px}
+.sig .sig-contact{margin-top:12px;background:#fff;border:1px solid #d0d4da;padding:14px 18px;font-size:14px}
+.sig .sig-contact div{margin-bottom:4px}
+.sig .sig-contact div:last-child{margin-bottom:0}
+
+/* footer */
+.ftr{background:var(--uc-blue-dark);color:rgba(255,255,255,.7);padding:20px 56px;font-size:12px;line-height:1.6;text-align:center;letter-spacing:.5px}
+.ftr strong{color:var(--uc-gold);letter-spacing:2px;text-transform:uppercase;font-size:11px;display:block;margin-bottom:6px}
+
+@media print{
+  body{background:#fff;font-size:11.5pt}
+  .page{max-width:none;margin:0;box-shadow:none;background:#fff}
+  .hdr{padding:24px 48px}
+  .body{padding:28px 48px}
+  .conf{padding:6px 48px;font-size:9pt}
+  .trap,.verdict,.cred{page-break-inside:avoid}
+  h2{page-break-after:avoid}
+}
+
+/* doc nav */
+.docnav{background:var(--uc-blue-dark);display:flex;justify-content:center;border-bottom:2px solid var(--uc-gold)}
+.docnav-tab{color:rgba(255,255,255,.7);padding:10px 22px;font-family:'Source Sans Pro',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none;border-right:1px solid rgba(255,255,255,.08);transition:background .15s}
+.docnav-tab:last-child{border-right:none}
+.docnav-tab:hover{background:rgba(255,255,255,.08);color:#fff}
+.docnav-tab.active{color:var(--uc-gold);background:rgba(253,181,21,.08);border-bottom:2px solid var(--uc-gold);margin-bottom:-2px}
+
+@media (max-width:720px){
+  .hdr,.body,.ftr,.conf{padding-left:24px;padding-right:24px}
+  .hdr h1{font-size:22px}
+  .body h2{font-size:19px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="docnav"><a href="index.html" class="docnav-tab active">Chief Memo</a><a href="epilogue.html" class="docnav-tab">Epilogue &mdash; The Federal Parallel</a></div>
+
+<div class="hdr">
+<div class="hdr-tag">CONFIDENTIAL · DEFENSE MEMORANDUM</div>
+<h1>The Chief, The Box, and The Records</h1>
+<div class="caption">A memorandum for counsel of record in <strong><em>The Regents of the University of California v. Sagitec Solutions, LLC, et al.</em></strong> &mdash; prepared voluntarily, without compensation sought, by a UC retiree with 36 years of contemporaneous documentation.</div>
+</div>
+
+<div class="conf">Not for public distribution &middot; Fact-witness memorandum &middot; April 23, 2026</div>
+
+<div class="body">
+
+<h2><span class="roman">I</span>The Witness UC Cannot Afford to Put on a Stand</h2>
+
+<p class="lede">The current UCLA Chief of Police is, on paper, the most qualified chief UCLA has ever hired. He is also the single most dangerous witness The Regents of the University of California could be compelled to produce in <em class="legal">Regents v. Sagitec Solutions, LLC</em>.</p>
+
+<p>He is a named respondent in a POST complaint filed by a former UCPD officer whose 30-year records dispute with the University is the subject of this memorandum. The office he holds is the one that took the actions under review. But the argument here is not that a different chief would have acted differently. The argument is that <strong>no University of California Chief of Police could</strong>.</p>
+
+<p>He is trained to enforce accountability. He runs a department that has never been subject to it. And the records at the heart of The Regents' False Claims Act theory against Sagitec &mdash; "UC's pension administration system lost or corrupted records because of Sagitec's defective work" &mdash; overlap, directly and materially, with the records this Chief's department is currently refusing to produce.</p>
+
+<div class="cred">
+<div class="cred-title">CREDENTIALS &mdash; THE CURRENT UCLA CHIEF OF POLICE</div>
+<ul>
+<li><strong>UCLA B.A.</strong> Political Science, 1992&ndash;1996. On campus during the final four years of the UCPD career documented in this memorandum. Graduated the same year Officer&nbsp;341 was forced out.</li>
+<li><strong>LAPD</strong> 29-year career through command rank. Served during the 2001&ndash;2013 federal consent decree (191 reforms under what is now 34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601).</li>
+<li><strong>Training</strong> FBI National Academy. Sherman Block Supervisory Leadership Institute. LAPD Command Development Program.</li>
+<li><strong>Education</strong> Master of Public Administration, University of Southern California.</li>
+<li><strong>Command</strong> North Hollywood Division. Metro Division.</li>
+<li><strong>UCPD</strong> Sworn in as UCLA Chief of Police, October 2025. Fourth UCPD chief in three years.</li>
+</ul>
+</div>
+
+<p>He is over-qualified for a system that does not use what he was trained to provide. No federal consent decree has ever touched a UC police department. No pattern-or-practice investigation. No external civilian oversight body with subpoena power. The tool he watched work at LAPD &mdash; 34&nbsp;U.S.C.&nbsp;&sect;&nbsp;12601 &mdash; has never been used at any UC campus in the statute's entire existence.</p>
+
+<h3>The Trap</h3>
+
+<p>If compelled to testify on the University's records practices, its personnel-file custody, its handling of Officer&nbsp;341's disability reclassification, and the contradictions between UC's written determinations and its own eleven years of conduct, he has exactly two choices:</p>
+
+<div class="trap">
+<div class="label">TWO DOORS · NO THIRD · NEITHER SURVIVES CROSS-EXAMINATION</div>
+<div class="row"><strong>If he lies under oath:</strong> He may keep his position for one news cycle. But every answer is trivially impeachable from a 36-year documented paper trail that already exists &mdash; Property Report #0190000204, Grievance AR&nbsp;91-01-14, the 1991&ndash;1992 Skelly hearing record, UC's own 1099-R filings 2009&ndash;2024, two CCW permits UCPD itself issued, and the three written 2023&ndash;2026 medical-separation determinations signed by his own command staff. Impeachment means perjury exposure under Penal Code &sect;&nbsp;118. POST-certified peace officers do not survive perjury findings. <strong>Career over.</strong></div>
+<div class="row"><strong>If he tells the truth under oath:</strong> UC's False Claims Act theory in <em>v. Sagitec</em> &mdash; that the broken system of record is Sagitec's fault &mdash; collapses on the witness stand. UC fires him the way it fired Stephen Agostini four days after Agostini told the truth about UCLA's financial records on February&nbsp;13,&nbsp;2026. <strong>Career over.</strong></div>
+<div class="row" style="margin-top:14px;padding-top:10px;border-top:1px solid #d0d4da"><strong style="color:var(--red)">The real trap:</strong> There is no path where the Chief keeps both his oath and his career. The documentary record already exists. Every lie collides with a document. Every truth collides with The Regents.</div>
+</div>
+
+<p>UC can fight the subpoena &mdash; which looks like concealment and hands Sagitec's counterclaim another paragraph. UC can produce him &mdash; and every answer he gives under oath, truthfully, damages The Regents' theory of the case. If he lies to protect The Regents, Sagitec's counsel walks him through the documents one at a time until the record answers for him. The Chief knows this. His training is built on it. His job forbids him from saying so aloud.</p>
+
+<div class="verdict">
+<strong>The Posture</strong>
+A sworn law-enforcement officer with LAPD consent-decree experience, an MPA from USC, and FBI National Academy credentials, seated under oath, looking at a three-decade paper trail his department is currently refusing to produce. That is not a witness UC General Counsel wants on a calendar.
+</div>
+
+<h2><span class="roman">II</span>Witness Backup &mdash; The Agostini Precedent</h2>
+
+<p class="lede">The Chief is not hypothetical. The precedent is six weeks old.</p>
+
+<p>On <strong>February&nbsp;13,&nbsp;2026</strong>, UCLA's own Chief Financial Officer, Stephen Agostini, told the <em>Daily Bruin</em> that the University's annual financial reports since 2002 were "erroneous and unaudited," that UCLA carried a $425&nbsp;million structural deficit, and that a $150&nbsp;million finance-modernization project had produced "nothing to show for it." He added that he had "rarely seen the kind of financial management flaws and failures" he saw at UCLA.</p>
+
+<p>On <strong>February&nbsp;17,&nbsp;2026</strong> &mdash; four days later &mdash; UCLA fired him.</p>
+
+<p>On <strong>March&nbsp;30,&nbsp;2026</strong>, Culver City hired him as Chief Financial Officer. In the hiring announcement, Culver City credited him with closing a $300&nbsp;million budget gap at UCLA and delivering a balanced budget. <strong>The same record that got him fired became the line on his resume that got him his next job.</strong></p>
+
+<h3>Why Agostini matters to this memorandum</h3>
+
+<ul>
+<li><strong>He is a second, already-proven truth-teller</strong> with direct institutional knowledge of UCLA's record-keeping failures. UC has already established how it handles insiders who speak on the record.</li>
+<li><strong>He is still available.</strong> He is now employed by a California municipal government and cannot be fired again by UC for testifying.</li>
+<li><strong>His public statements are already admissible</strong> as prior consistent statements against UC's interest. The <em>Daily Bruin</em> record is citable tomorrow.</li>
+<li><strong>His firing is the proof</strong> that UC's institutional response to documented truth-telling is retaliation, not investigation. That pattern bears directly on how the Chief will calculate his testimony.</li>
+</ul>
+
+<div class="verdict">
+<strong>The Pairing</strong>
+One current UC police chief with institutional custody of 36 years of records. One former UCLA CFO already on the record about UCLA's financial systems being "erroneous and unaudited" since 2002. Together, they establish a pre-existing pattern of broken UC record systems that predates Sagitec's 2013 contract and continues today using software Sagitec did not build.
+</div>
+
+<h2><span class="roman">III</span>Why This Matters to Sagitec's Defense</h2>
+
+<p>The Regents' theory, reduced to its essence, is: <em class="legal">Sagitec was hired to build a reliable pension-administration system; Sagitec delivered a defective product; UC's record-keeping failures are the result of that defect; triple damages follow under the California False Claims Act.</em></p>
+
+<p>The record available to this fact witness &mdash; developed from UC's own documents and from contemporaneous correspondence spanning 1990 to April 2026 &mdash; contradicts that theory in four specific ways:</p>
+
+<ul>
+<li><strong>UC's record-keeping was unreliable before Sagitec existed in the University's vendor list.</strong> Grievance AR&nbsp;91-01-14, Property Report #0190000204, the 1991&ndash;1992 Skelly hearing, and the 1995&ndash;1996 retaliation documentation all predate the 2013 Sagitec contract by two decades. Every grievance Officer&nbsp;341 filed against the University in those years was won. The University's response to each victory was escalation, not compliance.</li>
+<li><strong>UC reclassified Officer&nbsp;341's disability status in 2015 &mdash; four years before Sagitec's April&nbsp;2019 go-live.</strong> From 2009 through 2014, UC reported his pension under 1099-R Distribution Code&nbsp;3 &mdash; Disability. In 2015, without a Workers' Compensation Appeals Board hearing and without written authority, UC flipped the code to Code&nbsp;2 &mdash; Early Retirement. UC then reported his income that way for ten consecutive years. Sagitec's system had not yet launched when that reclassification occurred.</li>
+<li><strong>Three independent UC sources &mdash; none of them attributing the failures to Sagitec &mdash; have separately acknowledged that the system is broken.</strong> Ida Fong (2021, UCLA Benefits processing floor). Stephen Agostini (February&nbsp;2026, UCLA executive suite). The Regents themselves (December&nbsp;2025, in their own pleading in this litigation).</li>
+<li><strong>UC is still producing the same pattern of errors today using software Sagitec never built.</strong> On April&nbsp;16,&nbsp;2026, a UC benefits representative told Officer&nbsp;341 that a Medicare option available to every Medicare-eligible American under federal law did not exist for him. That call took place using UC's current retiree-services workflow &mdash; not through UCRAYS, not through Sagitec's system.</li>
+</ul>
+
+<h2><span class="roman">IV</span>The Broken System of Record &mdash; 1990 to Present</h2>
+
+<p>This memorandum does not offer a litigation theory. It offers a timeline. The timeline is documented in 15 chapters of an evidentiary record already drafted and available on request.</p>
+
+<h3>Pre-Sagitec (1990&ndash;2013)</h3>
+<ul>
+<li><strong>July&nbsp;1990.</strong> Officer&nbsp;341 issues a parking citation to a Regent's vehicle at a Regents meeting on the UCLA campus. Two commanding officers order the ticket cancelled. Officer&nbsp;341 refuses, and files Grievance AR&nbsp;91-01-14 &mdash; the first formal grievance in the record. Both commanding officers become central figures in the six-year retaliatory campaign that follows.</li>
+<li><strong>1990&ndash;1993.</strong> UCLA PD internal investigation. Eight tape-recorded conversations placed into evidence under Property Report #0190000204. Findings confirm the whistleblower's allegations. UC's institutional response is escalation.</li>
+<li><strong>1991&ndash;1992.</strong> Every grievance Officer&nbsp;341 files against the University is won. The Skelly hearing record is preserved.</li>
+<li><strong>1996.</strong> Officer&nbsp;341 is forced out of UCPD. The current Chief of Police graduates UCLA the same year.</li>
+<li><strong>2001&ndash;2003.</strong> UC's own claims administrator, Octagon Risk Services, declares Officer&nbsp;341 permanently and stationarily disabled, retroactive to March&nbsp;1,&nbsp;1996. UC reports the pension under 1099-R Code&nbsp;3 &mdash; Disability &mdash; from 2009 through 2014.</li>
+</ul>
+
+<h3>The Sagitec Window (2013&ndash;2019)</h3>
+<ul>
+<li><strong>2013.</strong> UC awards a contract to Sagitec Solutions and Linea Solutions to rebuild the pension administration system.</li>
+<li><strong>June&nbsp;1,&nbsp;2015.</strong> A UCRAYS representative calls Officer&nbsp;341 and tells him he must convert his disability income to a service retirement or he will lose all income. The representation turns out to be false. Without a hearing and without WCAB approval, UC flips his 1099-R from Code&nbsp;3 &mdash; Disability to Code&nbsp;2 &mdash; Early Retirement. UC reports his income that way for ten consecutive years. <strong>Sagitec's system does not go live for another four years.</strong></li>
+<li><strong>April&nbsp;2019.</strong> Sagitec's system launches. Pension payments are delayed. UC later characterizes the launch as "chaos."</li>
+</ul>
+
+<h3>Post-Sagitec (2019&ndash;Present)</h3>
+<ul>
+<li><strong>2021.</strong> Ida Fong, a UCLA benefits processor, acknowledges on the record that the University's record-keeping loses files. This is on the processing floor, not in a Sagitec system.</li>
+<li><strong>August&nbsp;25,&nbsp;2023 &amp; February&nbsp;10,&nbsp;2026.</strong> Three command-level officers inside a UC police department &mdash; the Captain, the Chief, and the Lieutenant &mdash; classify Officer&nbsp;341's employment, in writing, as "status was designated as medically separated on March&nbsp;1,&nbsp;1996," and use that classification to cancel his concealed-carry permit. That written determination directly contradicts the University's own eleven years of treating him as "retired" &mdash; including two CCW permits issued by UCLA&nbsp;PD itself.</li>
+<li><strong>December&nbsp;2025.</strong> The Regents file their pleading in <em class="legal">v. Sagitec</em>. The pleading acknowledges systemic errors in UC's pension administration &mdash; errors whose scope extends beyond any software Sagitec delivered.</li>
+<li><strong>February&nbsp;13,&nbsp;2026.</strong> Stephen Agostini tells the <em>Daily Bruin</em> UCLA's financial reports since 2002 are "erroneous and unaudited." Four days later, he is fired.</li>
+<li><strong>April&nbsp;16,&nbsp;2026.</strong> A UC benefits representative tells Officer&nbsp;341 that a Medicare option available to every Medicare-eligible American does not exist for him. The conversation takes place on current UC infrastructure.</li>
+</ul>
+
+<h2><span class="roman">V</span>Schr&ouml;dinger's Box &mdash; The Personnel File</h2>
+
+<p class="lede">One file resolves the record. UC will not open the box.</p>
+
+<p>The three UC command officers named above have, in writing, classified Officer&nbsp;341's employment as "medically separated March&nbsp;1,&nbsp;1996." That determination contradicts eleven years of UC treating him as "retired," including two concealed-carry permits UCLA&nbsp;PD itself issued. After three formal requests, the officers have withheld his legally protected personnel file &mdash; the file Government Code &sect;&nbsp;3306.5 guarantees every California peace officer the right to inspect.</p>
+
+<p>Opening the file collapses the superposition into exactly one of two measured outcomes. Either outcome costs the University money.</p>
+
+<ul>
+<li><strong>State A &mdash; "Medically Separated" / Duty Disability Income.</strong> The exact status UC itself assigned him in 2001, retroactive to March&nbsp;1,&nbsp;1996. UC's own 1099-R records from 2009&ndash;2014 confirm it under Distribution Code&nbsp;3 &mdash; Disability. If State&nbsp;A is the observed state, UC owes him hundreds of thousands of dollars in back pay plus the tax consequences of its own misclassification from 2015 forward.</li>
+<li><strong>State B &mdash; "Retired" / Service Retirement.</strong> The way UC began treating his record on June&nbsp;1,&nbsp;2015 and continued for over a decade. If State&nbsp;B is the observed state, UC unilaterally separated him from an approved workers' compensation case without Workers' Compensation Appeals Board authorization &mdash; a violation of Labor Code &sect;&nbsp;5804, which grants the WCAB continuing jurisdiction over every settlement it approves. The CCW cancellation becomes unlawful on its face.</li>
+</ul>
+
+<p>Either employment classification measurement collapses against the University. So the University refuses to measure. The box is locked. The measurement that would resolve it lives inside records the UCLA Chief of Police's department currently controls.</p>
+
+<div class="verdict">
+<strong>The Intersection</strong>
+The Regents argue, in <em class="legal">v. Sagitec</em>, that their pension system lost or corrupted records because of Sagitec's defective work. But the records at the center of Officer&nbsp;341's dispute are not pension-calculation records. They are personnel, disability, and peace-officer-status records held in UC systems Sagitec did not build, did not configure, and has no contractual custody of. If The Regents' "broken system of record" theory is true for Sagitec-era data, it is almost certainly true for pre-Sagitec and non-Sagitec data. And if it is true for pre-Sagitec and non-Sagitec data, then the defect is not Sagitec's product. It is UC's institution.
+</div>
+
+<h2><span class="roman">VI</span>Companion Document &mdash; The Federal Parallel</h2>
+
+<p class="lede">The conduct pattern in <em class="legal">Regents v. Sagitec</em> is not isolated. The Department of Justice is already prosecuting a parallel fact pattern against UC's insurance counterparties.</p>
+
+<p>Included with this memorandum is a second document &mdash; <a href="epilogue.html" style="color:var(--uc-blue);font-weight:700">The Epilogue</a> &mdash; drawn from a longer evidentiary record and focused on the federal landscape UC is currently operating inside. Three points from that document bear directly on Sagitec's defense posture:</p>
+
+<ul>
+<li><strong><em class="legal">United States ex rel. Shea v. eHealth, Inc., et al.</em>, No. 1:21-cv-11777-DJC (D. Mass.).</strong> On May&nbsp;1,&nbsp;2025, the Department of Justice intervened in a <em>qui tam</em> action alleging that three major Medicare Advantage insurers &mdash; Humana, Aetna (now CVS Health), and <strong>Anthem (now Elevance Health)</strong> &mdash; paid more than $230&nbsp;million in illegal kickbacks to three broker organizations in exchange for steering Medicare enrollees. <strong>On March&nbsp;25,&nbsp;2026, Chief Judge Denise J. Casper denied Elevance Health's motion to dismiss, and the case is proceeding to trial.</strong></li>
+<li><strong>Anthem is UC's retiree insurer.</strong> The same Elevance Health entity the DOJ is prosecuting for Medicare Advantage kickbacks is the entity UC self-funds and contracts with for its retiree health plan. The DOJ complaint alleges the kickback compensation was structured through "Marketing Development Agreements," "Call Development Program Agreements," and "Sponsorship" arrangements whose written terms reference "marketing" and "lead generation" &mdash; while the real compensation lived on spreadsheets and phone calls (DOJ Complaint &para;&para;416, 585).</li>
+<li><strong>UC's retiree-benefits funnel runs through the same mechanism.</strong> UC transfers Medicare-eligible retirees to Via Benefits / Willis Towers Watson via contracts whose precise compensation structure The Regents have not disclosed publicly. Mr. Harold's experience &mdash; documented in the Epilogue &mdash; describes identical operational mechanics: aggressive pre-Medicare outreach, representatives who present as UC personnel, and a unidirectional funnel whose financial incentive runs only one way.</li>
+</ul>
+
+<p>The relevance to Sagitec is not that Sagitec has exposure in <em class="legal">Shea</em>. Sagitec has no exposure in <em class="legal">Shea</em>. The relevance is that <strong>UC is currently suing its pension-system vendor for alleged fraud while itself operating inside a retiree-benefits funnel that the Department of Justice is, as of March&nbsp;25,&nbsp;2026, allowing to proceed to trial against UC's own insurance counterparty</strong>. The "broken system of record" that The Regents attribute to Sagitec is, in the Epilogue's documented view, a feature of UC's retiree-administration infrastructure as a whole &mdash; not a defect introduced by one vendor.</p>
+
+<div class="verdict">
+<strong>Why This Helps Sagitec</strong>
+If The Regents must explain, during discovery, why their pension vendor is answerable in False Claims Act damages while their insurance carrier &mdash; with an ongoing federal prosecution and a denied motion to dismiss &mdash; is not even named in a Regents action, the credibility of The Regents' theory of systemic vendor fraud takes a measurable hit. Counsel may also note that Mr. Harold's DMHC complaint (California Department of Managed Health Care, Case #1409109) is separately preserving a record of UC's current retiree-benefits conduct, independent of this litigation.
+</div>
+
+<h2><span class="roman">VII</span>The Ask &mdash; Fact Witness Availability</h2>
+
+<p>Mr. Harold does not direct witness selection and offers no opinion on litigation strategy. The foregoing identifies:</p>
+
+<ul>
+<li><strong>Witnesses available through ordinary discovery</strong> &mdash; including the current UCLA Chief of Police and former UCLA CFO Stephen Agostini &mdash; whose direct knowledge of UC's records systems bears on the central question in <em class="legal">Regents v. Sagitec</em>: whether UC possessed a functioning, reliable system of record before Sagitec's 2019 go-live.</li>
+<li><strong>Contemporaneous documentation</strong> spanning 1990 to the present, including but not limited to: Grievance AR&nbsp;91-01-14, Property Report #0190000204, the 1991&ndash;1992 Skelly hearing record, 1099-R tax records 2009&ndash;2024, the 2015 reclassification correspondence, the 2023 and 2026 medical-separation determinations, three denied personnel-file requests, and the April&nbsp;16,&nbsp;2026 benefits call.</li>
+<li><strong>A drafted 15-chapter evidentiary record</strong> (approximately 140,000 words, with citations), available on request to counsel of record.</li>
+</ul>
+
+<p>Mr. Harold is available as a fact witness. He will produce documentation on subpoena or by written request of counsel. He seeks no compensation, claims no role in the underlying litigation, and retains no attorney-client relationship with any party. He has filed separate administrative complaints (California Department of Managed Health Care, Case #1409109, among others) preserving his own record of UC's conduct toward him &mdash; a record that exists independent of this litigation and does not depend on it for relevance or resolution.</p>
+
+<div class="sig">
+<h2>Contact</h2>
+<div class="sig-name">Charles A. Harold Jr.</div>
+<div class="sig-line">UCLA Police Officer&nbsp;341, Ret. (forced separation, 1996)</div>
+<div class="sig-line">Complainant, California DMHC Case #1409109</div>
+<div class="sig-contact">
+<div><strong>Address:</strong> 1455 North Tomahawk Road, Apache Junction, Arizona 85119</div>
+<div><strong>Telephone:</strong> (818) 652-6400</div>
+<div><strong>Email:</strong> chuckharold@gmail.com</div>
+</div>
+<p style="margin-top:18px;font-size:13px;color:var(--muted);font-style:italic">This memorandum is voluntarily provided to Sagitec Solutions, LLC and its counsel of record. No compensation is sought. No expectation of coordinated action. The author retains full right to publish, withdraw, or expand the information provided. This document is not pleading, is not sworn, and is not offered as expert opinion. It is a fact witness's summary of documented events available through ordinary discovery.</p>
+</div>
+
+</div>
+
+<div class="ftr">
+<strong>Confidential &middot; Prepared for Sagitec Solutions, LLC and Counsel of Record</strong>
+Not for public distribution &middot; April&nbsp;23, 2026 &middot; Bruin Watch 1983
+</div>
+
+</div>
+</body>
+</html>
